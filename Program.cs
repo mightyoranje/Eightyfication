@@ -34,7 +34,7 @@ class Program
                 Console.WriteLine($"Battery Status: {GetBatteryStatus(status.BatteryChargeStatus)}");
                 Console.WriteLine($"Power Source: {(status.PowerLineStatus == PowerLineStatus.Online ? "AC Power" : "Battery")}");
                 Console.WriteLine("========================");
-                Console.WriteLine("Notification will appear when battery reaches 50%");
+                Console.WriteLine("Notification will appear when battery reaches 80%");
                 
                 System.Threading.Thread.Sleep(10000); // Update every 10 seconds
             }
